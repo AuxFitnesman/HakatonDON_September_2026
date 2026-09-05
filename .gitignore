@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.production
+!.env.example
+!.env.production.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Media / local
+backend/media/
+_case_extract.txt
